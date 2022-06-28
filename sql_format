@@ -1,0 +1,8 @@
+[(0, 'id1', 'INT', 0, None, 1), (1, 'id2', 'INT', 1, None, 0), (2, 'id3', 'INT', 0, None, 0)]
+
+0 - id
+1 - name
+2 - type
+3 - not null
+4 - hui znaet
+5 - primary key

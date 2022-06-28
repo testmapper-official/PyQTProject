@@ -1,0 +1,133 @@
+/* Панель заголовка */
+TitleBar {
+    background-color: #0079db;
+}
+/* Минимизировать кнопку `Максимальное выключение` Общий фон по умолчанию */
+#buttonMinimum, #buttonMaximum, #buttonClose {
+    color: black;
+    border: none;
+    background-color: #0079db;
+}
+/* Зависание */
+#buttonMinimum:hover,#buttonMaximum:hover {
+    color: black;
+    background-color: #b1dcfc;
+}
+#buttonClose:hover {
+    color: black;
+    background-color: #cc0000;
+}
+/* Мышь удерживать */
+#buttonMinimum:pressed,#buttonMaximum:pressed {
+    color: black;
+    background-color: #4daffa;
+}
+#buttonClose:pressed {
+    color: black;
+    background-color: #ff0000;
+}
+
+#OpenButton, #CloseButton, #CreateButton, #SaveButton, #ModeButton, #ThemeButton {
+	background-position: center;
+    background-repeat: no-repeat;
+    color: "#000";
+    font: 10pt;
+    font-family: "Yu Gothic UI Semibold";
+	border: none;
+	width: 100px;
+	min-height: 20px;
+	max-height: 9999px;
+	border-radius: 5px;
+	background-color: #5d76cb;
+	text-align: center;
+	margin: 5px;
+}
+
+#IndexTree, #ButtonWidget {
+    background-color: rgb(40, 44, 52);
+    border: 2px solid black;
+}
+
+QTabWidget::pane {
+    background-color: #0079db;
+}
+
+QTabWidget::tab-bar {
+    background-color: #0079db;
+}
+
+QTabBar::tab {
+    background-color: #0079db;
+    border-color: white;
+    color: black;
+
+}
+QTabBar::tab:!selected {
+    background-color: #0079db;
+    color: black;
+ }
+
+QTabBar::tab:selected {
+    background-color: #54b9f7;
+    color: black;
+}
+
+#ToggleBar {
+	background-position: center;
+    background-repeat: no-repeat;
+    color: "#000";
+    font: 10pt;
+    font-family: "Webdings";
+	border: none;
+	border-radius: 5px;
+	background-color: #5d76cb;
+	text-align: center;
+	margin: 5px;
+}
+#ToggleBar:hover, #OpenButton:hover, #CloseButton:hover, #CreateButton:hover,
+#SaveButton:hover, #ModeButton:hover, #ThemeButton:hover {
+	background-color: #8498d9;
+}
+#ToggleBar:pressed, #OpenButton:pressed, #CloseButton:pressed, #CreateButton:pressed,
+#SaveButton:pressed, #ModeButton:pressed, #ThemeButton:pressed {
+	background-color: #3c59ba;
+	color: rgb(255, 255, 255);
+}
+QScrollBar {
+    background-color: transparent;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background-color: rgba(88, 84, 80, 180);
+    border: none;
+    margin: 1;
+    min-height: 10px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+    background-color: rgba(44, 44, 40, 180);
+}
+
+QScrollBar::down-arrow:vertical, QScrollBar::up-arrow:vertical{
+      border: none;
+      background: none;
+      color: none;
+}
+
+QScrollBar::right-arrow:horizontal, QScrollBar::left-arrow:horizontal{
+      border: none;
+      background: none;
+      color: none;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::add-line:horizontal {
+      border: none;
+      background: none;
+}
+
+QScrollBar::sub-line:vertical, QScrollBar::sub-line:horizontal {
+      border: none;
+      background: none;
+}
